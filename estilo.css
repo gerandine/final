@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .logo{
+      width: 100px;
+      
+  }
+  
+  img{
+    width: 100%;
+  }
+
+  .article1{
+    background-color: white;
+  }
+
+  .articlefondo{
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    gap: 0; 
+  }
+
+  header {
+       
+      justify-content: space-between;
+      align-items: center; left: auto;
+      background-color: black;
+      padding: 10px;
+      border-bottom: 2px solid #ccc;
+      color: white;
+    }
+    
+    nav ul {
+      display: none;
+      list-style: none;
+      color: white;
+    }
+    
+    nav li {
+      margin: 0 10px;
+      color: white;
+    }
+  
+  body{
+      background-color: black; 
+      
+  }
+  
+  
+  article{
+    background-color: white;
+    box-shadow: 15px; 
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 4%;
+    
+    
+  }
+  
+  h2{
+    color: black;
+    background-color: white;
+    text-align: center;
+    
+  }
+  
+  .itinerario{
+    text-align: right;
+
+  }
+
+
+  .articlefondo1{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    gap: 0; 
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .articlefondo1 img,
+.articlefondo1 h1 {
+    margin: 0; 
+    padding: 0;
+}
+
+
+  .itinerariofondo{
+    background-color: black;
+  }
+  
+  .itinerariotodo h1{
+    background-color: #A0E541;
+    color: black;
+    
+  }
+  
+  
+  footer {
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  
+  section{
+    padding: 15px;
+  }
+
+  .countdown-container {
+    background-color: #A0E541;
+    text-align: center;
+    color: black;
+}
+
+#countdown {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.time-box {
+    background-color: #A0E541;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.time-box p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+
+  @media (min-width:992px){
+    
+    section{
+        background-color: black;
+      display: flex;
+      column-gap: 2%;
+      flex-wrap: wrap;
+    }
+  
+    nav ul {
+      display: flex;
+    }
+  
+  
+  section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 15px;
+  }
+  
+  img{
+    width: 50%;
+    align-items: center;
+  }
+  
+  footer {
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+  }
+  
+
+  
+  }
+  
